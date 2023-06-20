@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url("./img/parede.jpeg");
+    background-repeat: no-repeat;
+
+}
+
+.container-titulo{
+    text-align: center;
+    margin-top: 3%;
+}
+
+.titulo-main{
+    font-size: 6vw;
+    color: whitesmoke;
+}
+
+
+.desc-main{
+    font-size: 3vw;
+    margin-bottom: 20px;
+    color: whitesmoke;
+}
+
+.containerCard{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+    margin: auto;
+    max-width: 900px; 
+}
+
+
+.containerCard li{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 15px;
+    padding: 20px;
+    background-color: #efefef;
+}
+
+.containerCard h6{
+    font-size: 16px;
+    text-align: center;
+}
+
+.buttonCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.buttonCard a{
+    color: white;
+    padding: 3px;
+    background-color: red;
+    border-radius: 5px;
+}
+
+.buttonCard a:hover{
+    background-color: chocolate;
+    transform: scale(1.1); 
+    transition: all 0.5s;
+}
